@@ -14,6 +14,8 @@
 		771403CD1E6CECD6009C68F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 771403CC1E6CECD6009C68F2 /* Assets.xcassets */; };
 		771403D01E6CECD6009C68F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771403CE1E6CECD6009C68F2 /* LaunchScreen.storyboard */; };
 		771403DB1E6CECD6009C68F2 /* QuickRideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771403DA1E6CECD6009C68F2 /* QuickRideTests.swift */; };
+		771403E61E6CECF0009C68F2 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771403E51E6CECF0009C68F2 /* Queue.swift */; };
+		771403EA1E6CED1E009C68F2 /* PersonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771403E91E6CED1E009C68F2 /* PersonClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		771403D61E6CECD6009C68F2 /* QuickRideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickRideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		771403DA1E6CECD6009C68F2 /* QuickRideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickRideTests.swift; sourceTree = "<group>"; };
 		771403DC1E6CECD6009C68F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		771403E51E6CECF0009C68F2 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		771403E91E6CED1E009C68F2 /* PersonClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonClass.swift; path = ../PersonClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				771403C41E6CECD6009C68F2 /* ViewController.swift */,
 				771403C61E6CECD6009C68F2 /* Main.storyboard */,
 				771403CC1E6CECD6009C68F2 /* Assets.xcassets */,
+				771403E91E6CED1E009C68F2 /* PersonClass.swift */,
+				771403E51E6CECF0009C68F2 /* Queue.swift */,
 				771403CE1E6CECD6009C68F2 /* LaunchScreen.storyboard */,
 				771403D11E6CECD6009C68F2 /* Info.plist */,
 				771403C91E6CECD6009C68F2 /* QuickRide.xcdatamodeld */,
@@ -200,8 +206,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				771403EA1E6CED1E009C68F2 /* PersonClass.swift in Sources */,
 				771403CB1E6CECD6009C68F2 /* QuickRide.xcdatamodeld in Sources */,
 				771403C51E6CECD6009C68F2 /* ViewController.swift in Sources */,
+				771403E61E6CECF0009C68F2 /* Queue.swift in Sources */,
 				771403C31E6CECD6009C68F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

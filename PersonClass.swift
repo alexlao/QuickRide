@@ -7,3 +7,18 @@
 //
 
 import Foundation
+class Person{
+    var Name: String?
+    var cellNumber: String?
+    var location: String?
+    
+    init(name: String, cellNumber: String, location:String){
+        self.Name = name
+        self.cellNumber = cellNumber
+        self.location = location
+        
+    }
+    func changeLocation(loc: String){
+        self.location = loc
+    }
+}
