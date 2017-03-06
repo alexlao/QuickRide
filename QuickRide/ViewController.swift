@@ -25,8 +25,19 @@ class ViewController: UIViewController {
     @IBOutlet var line: UILabel!
     let q = Queue()
     
+    func updateLabels(name: String, cell: String, address: String){
+        userName.text = name
+        userCell.text = cell
+        userAddress.text = address
+    }
+    
     func updateSize(){
         line.text = "There are " + String(q.length()) + " rides needed"
+    }
+    func clearLabels(){
+        userName.text = nil
+        userAddress.text = nil
+        userCell.text = nil
     }
     
     @IBAction func drive(sender: AnyObject) {
@@ -41,5 +52,8 @@ class ViewController: UIViewController {
         var reqRide = Person(name: userName.text!, cellNumber: userCell.text!, location: userAddress.text!)
         q.add(reqRide)
         updateSize()
+        clearLabels()
+        //updateLabels("Bob", cell: "123123123", address: "65 stenner")
     }
+    
 }
